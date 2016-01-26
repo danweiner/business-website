@@ -57,7 +57,7 @@ form {
   border-radius: 5px;
 }
 
-label {
+/*label {
   display: block;
   font-size: 1.6em;
   margin: 0 0 .5em;
@@ -131,8 +131,7 @@ input[type="submit"] {
   text-shadow: 0 1px #68B25B;
 
 }
-
-
+*/
 
 
 .to-top{
@@ -140,35 +139,16 @@ input[type="submit"] {
 }
 #scroll-to-top{
     display:inline;
-    position:fixed;
     bottom:15px;
     right:20px;
     opacity:0.8;
 }
-#scroll-to-top:hover{
-    opacity:1;
+
+.arrow {
+  clear:both;
 }
 
-
-
-
-#txt {
-    background: #666;
-    width: 100px;
-    height: 100px;
-    margin: 5px;
-}
-
-
-
-.container {
-    height:60px;
-    margin:10px;
-}
-#foo {
-    background-color:#eeeeee;
-    width:150px;
-    height:50px;
-    text-align:center;
-    font-size:20px;
+h6 {
+  /*visibility: hidden;*/
+  display: none;
 }

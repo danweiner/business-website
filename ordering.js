@@ -6,4 +6,5 @@
 	  col.append(price);
 	  $(this).remove(); 
 	});
+    
 });

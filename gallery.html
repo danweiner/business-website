@@ -1,10 +1,80 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Gallery</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+  <title>DCGreetings.com</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: auto;
+      height: auto;
+      margin: auto;
+  }
+
+  .jumbotron {
+    background-color: lavender;
+  }
+
+  </style>
 </head>
+
+
+
 <body>
+
+  <div class="container">
+    <img class="img-responsive" src="DickensLogo.jpg" alt="Bah Humbug" width="500">
+  </div>
+
+  <div class="container">
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>  
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="index.html">FAQ</a></li>
+            <li><a href="Ordering.html">Ordering</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">More<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="gallery.html">Past Events Gallery</a></li>
+                <li><a href="Ordering.html">Vendor Application</a></li>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="form.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          </ul>
+        </div>
+      </div> 
+    </nav>
+  </div>
+ 
+  <div class="item">   
+    <div class="container">
+      <div class="jumbotron">
+        <h3 class="text-center">Helping small businesses not only SURVIVE... but PROSPER!!!</h3>
+      </div>
+    </div>
+  </div>
+
+
+
+
 	<h1 class="gallery-h1">Valentine's Day Cards</h1>
 	<h2 class="gallery-h2">View our new collection of Valentine's Day cards</h2>
 	<ul id="imageGallery">
@@ -18,7 +88,31 @@
 	<script src="script.js"></script>
 
 
+ <div class="container">
+    <div class="col-sm-6">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3019.911612764797!2d-73.2745356858914!3d40.80793603968021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e831d4edb03191%3A0x2fe857e62079cb93!2s75+Austin+Blvd%2C+Commack%2C+NY+11725!5e0!3m2!1sen!2sus!4v1449112146192" width="350" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
 
-	
+    <div class="col-sm-6">
+      <div class="page-header">
+        <h3>Contact Us</h3>      
+      </div>
+        <p>Monday to Friday: 9:30a to 5:30p</p>
+        <p>Phone: (631) 993-3123</p>
+    </div>
+  </div> 
+
+  <div class="container">
+      <div>
+        <p>&copy; 2016 - By Treez</p>
+      </div>
+  <div> 
+
+
+
+
+ <a href="" title="Do góry!" id="scroll-to-top"><img src="https://upload.wikimedia.org/wikipedia/en/1/1c/Up_Arrow_Icon.png" alt="strzałka do góry" /></a>
+  <script src="scroll.js"></script>
+
 </body>
 </html>

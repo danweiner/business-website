@@ -20,8 +20,8 @@ $( document ).ready(function() {
 
 
 $(document).ready(function(){
-    $("button").click(function(){
-        $("p").toggle();
+    $("button1").click(function(){
+        $("h6").toggle();
     });
   });
 });  
